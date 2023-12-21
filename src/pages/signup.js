@@ -32,7 +32,7 @@ export default function SignUp() {
   return (
     <div className="main-container">
       <div className="signup-container">
-        <h2>Welcome!</h2>
+        <h2>Sign Up</h2>
         <form className="signup-form">
           <label className="form-label">
             Email:
@@ -75,8 +75,8 @@ export default function SignUp() {
             padding: 20px;
             border: 2px solid #ddd;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color:black;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            background-color:white;
 
 
         }
@@ -84,7 +84,7 @@ export default function SignUp() {
         h2 {
             font-size: 40px;
             text-align: center;
-            color: skyblue;
+            color: #2980b9;
         }
 
         .signup-form {
@@ -124,6 +124,7 @@ export default function SignUp() {
 
         .signin-option {
             text-align: center;
+            
         }
         
         span{
@@ -133,7 +134,7 @@ export default function SignUp() {
         }
         .signin-option {
           
-           color: white;
+           color: black;
       }
         .signin-option span:hover {
             text-decoration: underline;

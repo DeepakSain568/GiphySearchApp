@@ -126,10 +126,17 @@ export default function Home() {
       </main>
       <style jsx>{`
         .container {
-          max-width: 800px;
-          margin: auto;
-          padding: 20px;
-          background-color:grey;
+        
+          height:500px;
+          width:800px;
+          position:absolute;
+          left:18%;
+          margin: 100px;
+          padding: 10px;
+          
+          border-radius:25px;
+          background-color:#E5E4E2;
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 
 
         }
@@ -145,15 +152,16 @@ export default function Home() {
         .auth-buttons {
           display: flex;
           flex-direction: column;
+          margin:110px;
           align-items: center;
         }
 
         .auth-button {
-          padding: 10px;
+          padding: 10px 30px;
           margin: 10px 0;
           font-size: 16px;
           border: none;
-          border-radius: 4px;
+          border-radius: 8px;
           cursor: pointer;
           background-color: #3498db;
           color: #fff;

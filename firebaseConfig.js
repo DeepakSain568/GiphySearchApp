@@ -1,11 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAy64C6yJqNa4pQq1PGlboeZL_tplHchG8",
-    authDomain: "alphabiproject.firebaseapp.com",
-    projectId: "alphabiproject",
-    storageBucket: "alphabiproject.appspot.com",
-    messagingSenderId: "995102611694",
-    appId: "1:995102611694:web:9c5f55c30896291b197bff",
-    measurementId: "G-6TPZTLGZ2C"
+  apiKey: "AIzaSyDUuaX5uf-9jXZ29RTzcMupBp4Y0D0DbJQ",
+  authDomain: "giphy-90649.firebaseapp.com",
+  projectId: "giphy-90649",
+  storageBucket: "giphy-90649.appspot.com",
+  messagingSenderId: "260109009440",
+  appId: "1:260109009440:web:c87edeaf1648c5418ff245",
+  measurementId: "G-TN7ZBDCJ4Q"
   };
 
   export default firebaseConfig;

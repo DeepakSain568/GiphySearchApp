@@ -30,7 +30,7 @@ export default function SignIn() {
     return (
         <div className="main-container">
             <div className="signin-container">
-                <h2>Welcome Back!</h2>
+                <h2>Sign In!</h2>
                 <form className="signin-form">
                     <label className="form-label">
                         Email:
@@ -68,19 +68,19 @@ export default function SignIn() {
                             }
                     
                             .signin-container {
-                              width: 400px;
+                              width: 500px;
                               max-width: 800px;
                               padding: 20px;
                               border: 2px solid #ddd;
                               border-radius: 8px;
-                              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                              background-color: black;
+                              box-shadow: 0 0 30px rgba(0, 0, 0, 3);
+                              background-color: white;
                             }
                     
                             h2 {
                               font-size: 40px;
                               text-align: center;
-                              color: skyblue;
+                              color: #2980b9;
                             }
                     
                             .signin-form {
@@ -101,7 +101,7 @@ export default function SignIn() {
                               padding: 8px;
                               font-size: 16px;
                               border: 1px solid #ccc;
-                              border-radius: 4px;
+                              border-radius: 5px;
                             }
                     
                             .signin-button {
@@ -110,7 +110,7 @@ export default function SignIn() {
                               padding: 10px;
                               font-size: 16px;
                               border: none;
-                              border-radius: 4px;
+                              border-radius: 5px;
                               cursor: pointer;
                             }
                     
@@ -120,7 +120,7 @@ export default function SignIn() {
                     
                             .signup-option {
                               text-align: center;
-                              color:white;
+                              color:black;
                             }
                             
                             span{

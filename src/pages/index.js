@@ -4,7 +4,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import auth from '../../lib/firebase';
 import { searchGifs } from '../../lib/giphy';
-//d
+// import "";
 export default function Home() {
   const [user] = useAuthState(auth);
   const [query, setQuery] = useState('');
